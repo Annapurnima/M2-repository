@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.camelcookbook.examples</groupId>
+  <artifactId>transformation</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160322133323</lastUpdated>
+  </versioning>
+</metadata>

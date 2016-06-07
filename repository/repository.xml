@@ -1,0 +1,255 @@
+<repository lastmodified='20160507040239.659'>
+  <resource id='org.camelcookbook.examples.routing/1.0.0.SNAPSHOT' symbolicname='org.camelcookbook.examples.routing' presentationname='Camel Cookbook Examples :: Routing' uri='file:/C:/Users/sreedhar/.m2/repository/org/camelcookbook/examples/routing/1.0-SNAPSHOT/routing-1.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <size>62508</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.camelcookbook.examples.routing'/>
+      <p n='presentationname' v='Camel Cookbook Examples :: Routing'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.changingmep'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.contentbasedrouter'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.dynamicrouter'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel,org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.filtering'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.loadbalancer'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.model'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.multicast'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel,org.apache.camel.builder,org.apache.camel.processor.aggregate'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.recipientlist'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel,org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.routingslip'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel,org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.throttler'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.routing.wiretap'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.apache.camel)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.builder)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.builder;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.model)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.model;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.processor.aggregate)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.processor.aggregate;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.spi)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.spi;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='org.camelcookbook.examples.structuring-routes/1.0.0.SNAPSHOT' symbolicname='org.camelcookbook.examples.structuring-routes' presentationname='Camel Cookbook Examples :: Structuring Routes' uri='file:/C:/Users/sreedhar/.m2/repository/org/camelcookbook/examples/structuring-routes/1.0-SNAPSHOT/structuring-routes-1.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <size>24817</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.camelcookbook.examples.structuring-routes'/>
+      <p n='presentationname' v='Camel Cookbook Examples :: Structuring Routes'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.structuringroutes.direct'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.structuringroutes.propertyplaceholder'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.structuringroutes.routecontrol'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.structuringroutes.seda'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel,org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.structuringroutes.simple'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder,org.springframework.stereotype'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.structuringroutes.simplespring'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.structuringroutes.templating'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='javax.annotation,org.apache.camel,org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.structuringroutes.vm'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.annotation))' extend='false' multiple='false' optional='false'>Import package javax.annotation</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.builder)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.builder;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.component.log)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.component.log;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.impl)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.impl;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.model)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.model;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.spi)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.spi;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.context.support))' extend='false' multiple='false' optional='false'>Import package org.springframework.context.support</require>
+    <require name='package' filter='(&amp;(package=org.springframework.stereotype))' extend='false' multiple='false' optional='false'>Import package org.springframework.stereotype</require>
+  </resource>
+  <resource id='org.camelcookbook.examples.transformation/1.0.0.SNAPSHOT' symbolicname='org.camelcookbook.examples.transformation' presentationname='Camel Cookbook Examples :: Transformation' uri='file:/C:/Users/sreedhar/.m2/repository/org/camelcookbook/examples/transformation/1.0-SNAPSHOT/transformation-1.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <size>48257</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.camelcookbook.examples.transformation'/>
+      <p n='presentationname' v='Camel Cookbook Examples :: Transformation'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.csv'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.csv.model'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.dataformat.bindy.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.enrich'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel,org.apache.camel.builder,org.apache.camel.processor.aggregate'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.jaxb'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.json'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.myschema'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='javax.xml.bind.annotation,org.jvnet.jaxb2_commons.lang,org.jvnet.jaxb2_commons.locator'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.normalizer'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder,org.camelcookbook.transformation.myschema'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.simple'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.xmljson'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.xquery'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.camelcookbook.transformation.xslt'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.camel.builder'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation))' extend='false' multiple='false' optional='false'>Import package javax.xml.bind.annotation</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.builder)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.builder;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.component.xquery)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.component.xquery;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.converter.jaxb)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.converter.jaxb;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.dataformat.bindy.annotation)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.dataformat.bindy.annotation;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.dataformat.bindy.csv)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.dataformat.bindy.csv;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.dataformat.xmljson)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.dataformat.xmljson;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.model)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.model;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.model.dataformat)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.model.dataformat;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.processor.aggregate)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.processor.aggregate;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.spi)(version&gt;=2.12.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.spi;version="[2.12,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jvnet.jaxb2_commons.lang)(version&gt;=0.6.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jvnet.jaxb2_commons.lang;version="[0.6,1)"</require>
+    <require name='package' filter='(&amp;(package=org.jvnet.jaxb2_commons.locator)(version&gt;=0.6.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jvnet.jaxb2_commons.locator;version="[0.6,1)"</require>
+    <require name='package' filter='(&amp;(package=org.jvnet.jaxb2_commons.locator.util)(version&gt;=0.6.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jvnet.jaxb2_commons.locator.util;version="[0.6,1)"</require>
+  </resource>
+  <resource id='com.fusesource.byexample.hellocamel.HelloCamel/1.0.0' symbolicname='com.fusesource.byexample.hellocamel.HelloCamel' presentationname='HelloCamel' uri='com/fusesource/byexample/hellocamel/HelloCamel/1.0.0/HelloCamel-1.0.0.jar' version='1.0.0'>
+    <size>6987</size>
+    <documentation>http://redhat.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.fusesource.byexample.hellocamel.HelloCamel'/>
+      <p n='presentationname' v='HelloCamel'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.apache.camel)(version&gt;=2.15.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel;version="[2.15,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.impl)(version&gt;=2.15.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.impl;version="[2.15,3)"</require>
+  </resource>
+  <resource id='org.jboss.quickstarts.fuse.rest/6.1.0.redhat-379' symbolicname='org.jboss.quickstarts.fuse.rest' presentationname='rest' uri='file:/C:/Users/sreedhar/.m2/repository/org/jboss/quickstarts/fuse/rest/6.1.0.redhat-379/rest-6.1.0.redhat-379.jar' version='6.1.0.redhat-379'>
+    <description>RESTful WebService Example using JAX-RS with JBoss Fuse</description>
+    <size>12843</size>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jboss.quickstarts.fuse.rest'/>
+      <p n='presentationname' v='rest'/>
+      <p n='version' t='version' v='6.1.0.redhat-379'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jboss.quickstarts.fuse.rest'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='javax.xml.bind.annotation,javax.annotation,org.slf4j,javax.ws.rs,com.wordnik.swagger.annotations,org.apache.cxf.jaxrs.ext,javax.ws.rs.core'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.annotation)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package com.fasterxml.jackson.annotation;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package com.fasterxml.jackson.core;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package com.fasterxml.jackson.databind;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.jaxrs.json)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package com.fasterxml.jackson.jaxrs.json;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=com.wordnik.swagger.annotations))' extend='false' multiple='false' optional='true'>Import package com.wordnik.swagger.annotations;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=com.wordnik.swagger.jaxrs.config))' extend='false' multiple='false' optional='true'>Import package com.wordnik.swagger.jaxrs.config;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=com.wordnik.swagger.jaxrs.listing))' extend='false' multiple='false' optional='true'>Import package com.wordnik.swagger.jaxrs.listing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.annotation))' extend='false' multiple='false' optional='false'>Import package javax.annotation</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.core;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.ext)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.ext;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation))' extend='false' multiple='false' optional='false'>Import package javax.xml.bind.annotation</require>
+    <require name='package' filter='(&amp;(package=org.apache.cxf.jaxrs.ext)(version&gt;=2.7.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.cxf.jaxrs.ext;version="[2.7,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.cxf.jaxrs.swagger)(version&gt;=2.7.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.cxf.jaxrs.swagger;version="[2.7,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.6,2)"</require>
+  </resource>
+</repository>

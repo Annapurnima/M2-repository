@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 22 20:56:04 IST 2016
+xml-resolver-1.2.jar>jboss-earlyaccess-plugin-repository=
+xml-resolver-1.2.pom>jboss-earlyaccess-plugin-repository=
+xml-resolver-1.2.jar>jboss-earlyaccess-repository=
+xml-resolver-1.2.pom>jboss-earlyaccess-repository=

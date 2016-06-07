@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Apr 20 15:13:01 IST 2016
+http\://repo.fusesource.com/nexus/content/repositories/releases/.lastUpdated=1461145381194
+http\://maven.repository.redhat.com/earlyaccess/all/.error=Could not transfer artifact org.apache.camel\:tooling\:pom\:2.15.1.redhat-621084 from/to jboss-earlyaccess-plugin-repository (http\://maven.repository.redhat.com/earlyaccess/all/)\: Failed to transfer http\://maven.repository.redhat.com/earlyaccess/all/org/apache/camel/tooling/2.15.1.redhat-621084/tooling-2.15.1.redhat-621084.pom. Error code 402, Payment Required
+@default-jboss-ga-plugin-repository-http\://maven.repository.redhat.com/techpreview/all/.lastUpdated=1461145381131
+@default-jboss-earlyaccess-plugin-repository-http\://maven.repository.redhat.com/earlyaccess/all/.lastUpdated=1461145380756
+http\://maven.repository.redhat.com/techpreview/all/.error=Could not transfer artifact org.apache.camel\:tooling\:pom\:2.15.1.redhat-621084 from/to jboss-ga-plugin-repository (http\://maven.repository.redhat.com/techpreview/all)\: Failed to transfer http\://maven.repository.redhat.com/techpreview/all/org/apache/camel/tooling/2.15.1.redhat-621084/tooling-2.15.1.redhat-621084.pom. Error code 402, Payment Required

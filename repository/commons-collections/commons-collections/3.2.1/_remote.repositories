@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 22 20:56:19 IST 2016
+commons-collections-3.2.1.jar>jboss-earlyaccess-repository=
+commons-collections-3.2.1.pom>jboss-earlyaccess-repository=
+commons-collections-3.2.1.jar>jboss-earlyaccess-plugin-repository=
+commons-collections-3.2.1.pom>jboss-earlyaccess-plugin-repository=

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jboss.quickstarts.fuse</groupId>
+  <artifactId>eip</artifactId>
+  <versioning>
+    <latest>6.1.1.redhat-454</latest>
+    <release>6.1.1.redhat-454</release>
+    <versions>
+      <version>6.1.0.redhat-379</version>
+      <version>6.1.0.redhat-394</version>
+      <version>6.1.1.redhat-412</version>
+      <version>6.1.1.redhat-423</version>
+      <version>6.1.1.redhat-445</version>
+      <version>6.1.1.redhat-454</version>
+    </versions>
+    <lastUpdated>20160107193812</lastUpdated>
+  </versioning>
+</metadata>

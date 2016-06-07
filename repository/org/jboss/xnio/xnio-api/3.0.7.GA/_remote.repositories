@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Apr 17 13:16:15 IST 2016
+xnio-api-3.0.7.GA.pom>central=
+xnio-api-3.0.7.GA.pom>jboss-earlyaccess-plugin-repository=
+xnio-api-3.0.7.GA.jar>jboss-earlyaccess-plugin-repository=
+xnio-api-3.0.7.GA.jar>central=

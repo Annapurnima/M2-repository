@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 24 15:58:05 IST 2016
+rest-6.1.0.redhat-379.jar>=
+rest-6.1.0.redhat-379-features.xml>=
+rest-6.1.0.redhat-379.pom>=

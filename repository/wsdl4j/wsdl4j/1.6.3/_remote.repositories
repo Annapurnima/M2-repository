@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 22 20:56:03 IST 2016
+wsdl4j-1.6.3.pom>jboss-earlyaccess-repository=
+wsdl4j-1.6.3.pom>jboss-earlyaccess-plugin-repository=
+wsdl4j-1.6.3.jar>jboss-earlyaccess-plugin-repository=
+wsdl4j-1.6.3.jar>jboss-earlyaccess-repository=

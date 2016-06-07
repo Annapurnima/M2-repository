@@ -1,0 +1,11 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Apr 20 15:13:13 IST 2016
+http\://repo.fusesource.com/nexus/content/groups/ea/.lastUpdated=1461145391866
+@default-jboss-ga-plugin-repository-http\://maven.repository.redhat.com/techpreview/all/.lastUpdated=1461145390491
+http\://repo.fusesource.com/nexus/content/groups/ea/.error=
+@default-jboss-earlyaccess-plugin-repository-http\://maven.repository.redhat.com/earlyaccess/all/.lastUpdated=1461145390163
+https\://repo.maven.apache.org/maven2/.lastUpdated=1461145393007
+http\://maven.repository.redhat.com/techpreview/all/.error=Could not transfer artifact org.codehaus.mojo\:mojo-parent\:pom\:33 from/to jboss-ga-plugin-repository (http\://maven.repository.redhat.com/techpreview/all)\: Failed to transfer http\://maven.repository.redhat.com/techpreview/all/org/codehaus/mojo/mojo-parent/33/mojo-parent-33.pom. Error code 402, Payment Required
+http\://repo.fusesource.com/nexus/content/repositories/releases/.error=Could not transfer artifact org.codehaus.mojo\:mojo-parent\:pom\:33 from/to release.fusesource.org (http\://repo.fusesource.com/nexus/content/repositories/releases)\: Failed to transfer http\://repo.fusesource.com/nexus/content/repositories/releases/org/codehaus/mojo/mojo-parent/33/mojo-parent-33.pom. Error code 503, Service Unavailable
+@default-release.fusesource.org-http\://repo.fusesource.com/nexus/content/repositories/releases/.lastUpdated=1461145390913
+http\://maven.repository.redhat.com/earlyaccess/all/.error=Could not transfer artifact org.codehaus.mojo\:mojo-parent\:pom\:33 from/to jboss-earlyaccess-plugin-repository (http\://maven.repository.redhat.com/earlyaccess/all/)\: Failed to transfer http\://maven.repository.redhat.com/earlyaccess/all/org/codehaus/mojo/mojo-parent/33/mojo-parent-33.pom. Error code 402, Payment Required
